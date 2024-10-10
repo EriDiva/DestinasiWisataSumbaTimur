@@ -1,0 +1,485 @@
+/* Mengatur gaya untuk navigasi */  
+nav {  
+    background-color: #333;  
+    padding: 10px;  
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    justify-content: flex-end;  
+}  
+
+nav ul li {  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    font-size: 18px;  
+}  
+
+nav ul li a:hover {  
+    color: #ffcc80;  
+}  
+
+/* Gaya untuk halaman dashboard */  
+.page {  
+    display: none; /* Menyembunyikan semua halaman secara default */  
+}  
+
+.page.active {  
+    display: block; /* Menampilkan halaman yang aktif */  
+}  
+
+#dashboard {  
+    background-color: #e2f3d7;  
+    padding: 20px;  
+}  
+
+.header {  
+    background-color: #a3c651;  
+    padding: 20px;  
+    color: #fff;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.logo-title {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.logo {  
+    width: 60px;  
+    height: auto;  
+    margin-right: 20px;  
+}  
+
+.title-text h1 {  
+    font-size: 36px;  
+    font-weight: bold;  
+    color: #fdd835;  
+}  
+
+.title-text p {  
+    font-size: 18px;  
+    font-weight: bold;  
+    color: #ffcc80;  
+    margin-top: 5px;  
+}  
+
+.login-info {  
+    font-size: 16px;  
+    color: #ffffff;  
+}  
+
+.login-info a {  
+    color: #4e342e;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+.main-image {  
+    position: relative;  
+    margin-top: 10px;  
+}  
+
+.main-image img {  
+    width: 100%;  
+    height: auto;  
+}  
+
+.image-carousel {  
+    display: flex;  
+    justify-content: flex-start;  
+    margin-top: -310px; /* Agar carousel berada di bawah gambar utama */  
+    left: 210%;  
+    gap: 20px;  
+}  
+
+.circle-image {  
+    width: 130px;  
+    height: 130px;  
+    border-radius: 50%;  
+    overflow: hidden;  
+    border: 4px solid #a3c651;  
+    background-color: white;  
+}  
+
+.circle-image img {  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+}  
+
+/* Gaya untuk halaman Destinasi */  
+#destinasi {  
+    padding: 20px;  
+    background-color: #f0f0f0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+#destinasi h2 {  
+    font-size: 24px;  
+    font-weight: bold;  
+    margin-bottom: 20px;  
+}  
+
+.destinasi-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 20px;  
+}  
+
+.destinasi-card {  
+    border: 1px solid #ddd;  
+    padding: 15px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    width: 300px;  
+    text-align: center;  
+}  
+
+.destinasi-card img {  
+    width: 100%;  
+    height: 200px;  
+    object-fit: cover;  
+    border-radius: 8px;  
+    margin-bottom: 10px;  
+}  
+
+.destinasi-card h3 {  
+    font-size: 20px;  
+    font-weight: bold;  
+    margin-bottom: 5px;  
+}  
+
+.destinasi-card p {  
+    font-size: 16px;  
+    line-height: 1.5;  
+}  
+
+/* Gaya untuk halaman Tentang Kami dan Kontak */  
+#tentangkami, #kontak {  
+    padding: 20px;  
+    background-color: #f0f0f0;  
+}  
+
+#tentangkami h2, #kontak h2 {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+#tentangkami p, #kontak p {  
+    font-size: 18px;  
+}  
+
+/* Gaya untuk form login */  
+.login-container {  
+    background-color: #90EE90; /* Warna latar belakang hijau muda */  
+    padding: 30px;  
+    margin: 100px auto;  
+    border-radius: 10px;  
+    width: 400px;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.login-container h1 {  
+    color: #FFD700; /* Warna kuning */  
+    font-size: 2.5em;  
+    margin-bottom: 20px;  
+}  
+
+.login-form {  
+    background-color: #F0FFF0; /* Warna latar belakang putih pucat */  
+    padding: 20px;  
+    border-radius: 10px;  
+    width: 100%;  
+}  
+
+.login-form h2 {  
+    color: #800000; /* Warna coklat */  
+    font-size: 1.5em;  
+    margin-bottom: 20px;  
+}  
+
+.form-group {  
+    margin-bottom: 15px;  
+}  
+
+.form-group label {  
+    display: block;  
+    margin-bottom: 5px;  
+    color: #800000; /* Warna coklat */  
+}  
+
+.form-group input {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    box-sizing: border-box;  
+}  
+
+.login-form button {  
+    background-color: #800000; /* Warna coklat */  
+    color: white;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    width: 100%;  
+    margin-top: 10px;  
+}  
+
+.login-form button:hover {  
+    opacity: 0.8;  
+}  
+
+.login-form a {  
+    color: #800000; /* Warna coklat */  
+    text-decoration: none;  
+    display: block;  
+    margin-top: 10px;  
+    text-align: center;  
+}  
+
+.login-form a:hover {  
+    text-decoration: underline;  
+}  
+
+/* Gaya untuk halaman Akomodasi */  
+#akomodasi {  
+    padding: 20px;  
+    background-color: #f0f0f0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+#akomodasi h2 {  
+    font-size: 24px;  
+    font-weight: bold;  
+    margin-bottom: 20px;  
+}  
+
+.akomodasi-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 20px;  
+}  
+
+.akomodasi-card {  
+    border: 1px solid #ddd;  
+    padding: 15px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    width: 300px;  
+    text-align: center;  
+}  
+
+.akomodasi-card img {  
+    width: 100%;  
+    height: 200px;  
+    object-fit: cover;  
+    border-radius: 8px;  
+    margin-bottom: 10px;  
+}  
+
+.akomodasi-card h3 {  
+    font-size: 20px;  
+    font-weight: bold;  
+    margin-bottom: 5px;  
+}  
+
+.akomodasi-card p {  
+    font-size: 16px;  
+    line-height: 1.5;  
+}
+
+/* Mengatur gaya untuk navigasi */  
+nav {  
+    background-color: #333;  
+    padding: 10px;  
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    justify-content: flex-end;  
+}  
+
+nav ul li {  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    font-size: 18px;  
+}  
+
+nav ul li a:hover {  
+    color: #ffcc80;  
+}  
+
+/* Memisahkan kelompok navigasi dengan spasi */
+nav ul + ul {
+    margin-top: 10px; /* Atur jarak antara dua kelompok ul */
+    border-top: 1px solid #fff; /* Garis pemisah */
+    padding-top: 10px;
+}
+
+/* Mengatur gaya untuk navigasi */  
+nav {  
+    background-color: #333;  
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}  
+
+nav ul li {  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}  
+
+nav ul li a:hover {  
+    background-color: #555;
+    color: #ffcc80;  
+}  
+
+/* Gaya untuk halaman Transaction */
+#transaction {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.transaction-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.transaction-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tambah-data {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.tambah-data:hover {
+    background-color: #45a049;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.edit-link, .delete-link {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.edit-link:hover, .delete-link:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk form input transaction */
+.input-transaction {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.input-transaction h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#transactionForm .form-group {
+    margin-bottom: 15px;
+}
+
+#transactionForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+#transactionForm input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#transactionForm button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#transactionForm button:hover {
+    background-color: #2980b9;
+}
